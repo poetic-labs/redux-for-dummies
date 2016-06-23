@@ -1,1 +1,1 @@
-# redux-for-dummies
+# guidlines for designers and developers on the webflow->stanza webflow
