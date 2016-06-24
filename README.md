@@ -25,4 +25,28 @@ the designer needs to upload it to the master. on the master branch, the develop
 5. using ignore: sometimes you will have html files that you don't want stanza to create a path for them, but you still want them to be created as react components (such as loading screen, error notifications). ask the designer to add "-ignore" to the html file name. 
 6. redux: stanza knows how to hook redux actions and states to forms and all their inputs inside that specific form, to buttons, checkboxes, and radiobuttons. you need to make sure all the forms has a uniq id relativly to the page (checkboxes and radiobuttons being represented as forms in the webflow so the also need to have their own uniq id) 
 if a developer wants to add an action creator to a specific button(buttons are represented as a tags in webflow), the designer need to add id and href="#".
-> FOR DEVELOPERS: currently,stanza is not handling the radiobuttons actions fully, so you will need to alter it manualy. 
+* For Developers: currently,stanza is not handling the radiobuttons actions fully, so you will need to alter it manualy. 
+
+---------------------------------------------------------------------------------------------------------------------------
+
+# List of helpful tutorials for learning reduxs:
+
+### High level Explenation:
+1. http://redux.js.org/ (there are links to example apps there)
+2. http://haochuan.io/redux-for-dummies/ 
+3. http://www.youhavetolearncomputers.com/blog/2015/9/15/a-conceptual-overview-of-redux-or-how-i-fell-in-love-with-a-javascript-state-container
+4. https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#.lvmjaz300 (read the previous article about flux)
+
+### Code Included Tutorials:
+1. https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.q1nbj9c94     (good tutorial for beginers but not complete. doesnt include explanation about the connect function)
+2. https://egghead.io/courses/getting-started-with-redux
+3. 4.  https://css-tricks.com/learning-react-redux/
+3. series: 
+* https://medium.com/modern-user-interfaces/how-we-redux-part-1-introduction-18a24c3b7efe#.2m7anux21
+* https://medium.com/modern-user-interfaces/how-we-redux-part-2-setup-c6aa726fa79e#.etoz6v45f
+* https://medium.com/modern-user-interfaces/how-we-redux-part-3-domain-890964824fec#.lmav8iofx
+* https://medium.com/modern-user-interfaces/how-we-redux-part-4-reducers-and-stores-f4a0ebcdc22a#.122occk8q
+* https://medium.com/modern-user-interfaces/how-we-redux-part-5-components-bddd737022e1#.ddnnt9y0p
+* source code: https://github.com/abhiaiyer91/How-We-Redux-Todos
+
+
