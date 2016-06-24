@@ -10,6 +10,8 @@ the designer needs to upload it to the master. on the master branch, the develop
 
 ### For Designers:
 1. Don't use position fixed! it breaks animations in stanza! 
+![fixed positioning](https://cloud.githubusercontent.com/assets/13259313/16345098/af552e14-3a05-11e6-8052-1818bef3ef6e.png)
+
 2. flexbox is a good tool to use it when it comes to apps. Dont use it in web projects 
 3. make sure to create loading screen and error notifications on separate pages and add '-ignore' to the file name (unless the developer says otherwise) 
 4. when designer have a new webflow zip file, he needs to rename it to "design.zip" and upload it to the project's github repo under the master master branch. 
