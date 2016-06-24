@@ -18,6 +18,7 @@ the designer needs to upload it to the master. on the master branch, the develop
 5. custom code in webflow: if a certain style cannot be done in webflow, please use the custom code option in webflow. 
 6. Do not add style to body tags. always add a wrapper with position: absolute, and apply styles to that wrapper. 
 7. Redux: make sure the forms has uniq id name relativly to the page.
+
 ![screen shot 2016-06-24 at 11 57 42 am](https://cloud.githubusercontent.com/assets/8363969/16345182/30b934e6-3a06-11e6-8177-938b8e9997dd.png)
 
 
