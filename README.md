@@ -36,17 +36,19 @@ if a developer wants to add an action creator to a specific button(buttons are r
 2. http://haochuan.io/redux-for-dummies/ 
 3. http://www.youhavetolearncomputers.com/blog/2015/9/15/a-conceptual-overview-of-redux-or-how-i-fell-in-love-with-a-javascript-state-container
 4. https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#.lvmjaz300 (read the previous article about flux)
+5. https://github.com/xgrommx/awesome-redux (includes tons of resources)
 
 ### Code Included Tutorials:
 1. https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.q1nbj9c94     (good tutorial for beginers but not complete. doesnt include explanation about the connect function)
 2. https://egghead.io/courses/getting-started-with-redux
-3. 4.  https://css-tricks.com/learning-react-redux/
-3. series: 
-* https://medium.com/modern-user-interfaces/how-we-redux-part-1-introduction-18a24c3b7efe#.2m7anux21
-* https://medium.com/modern-user-interfaces/how-we-redux-part-2-setup-c6aa726fa79e#.etoz6v45f
-* https://medium.com/modern-user-interfaces/how-we-redux-part-3-domain-890964824fec#.lmav8iofx
-* https://medium.com/modern-user-interfaces/how-we-redux-part-4-reducers-and-stores-f4a0ebcdc22a#.122occk8q
-* https://medium.com/modern-user-interfaces/how-we-redux-part-5-components-bddd737022e1#.ddnnt9y0p
-* source code: https://github.com/abhiaiyer91/How-We-Redux-Todos
+3. https://css-tricks.com/learning-react-redux/
+4. series: 
+- https://medium.com/modern-user-interfaces/how-we-redux-part-1-introduction-18a24c3b7efe#.2m7anux21
+- https://medium.com/modern-user-interfaces/how-we-redux-part-2-setup-c6aa726fa79e#.etoz6v45f
+- https://medium.com/modern-user-interfaces/how-we-redux-part-3-domain-890964824fec#.lmav8iofx
+- https://medium.com/modern-user-interfaces/how-we-redux-part-4-reducers-and-stores-f4a0ebcdc22a#.122occk8q
+- https://medium.com/modern-user-interfaces/how-we-redux-part-5-components-bddd737022e1#.ddnnt9y0p
+- source code: https://github.com/abhiaiyer91/How-We-Redux-Todos
+
 
 
