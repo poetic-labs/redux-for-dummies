@@ -13,11 +13,13 @@ the designer needs to upload it to the master. on the master branch, the develop
 ![fixed positioning](https://cloud.githubusercontent.com/assets/13259313/16345098/af552e14-3a05-11e6-8052-1818bef3ef6e.png)
 
 2. flexbox is a good tool to use it when it comes to apps. Dont use it in web projects 
-3. make sure to create loading screen and error notifications on separate pages and add '-ignore' to the file name (unless the developer says otherwise) 
+3. Any element that is not exclusive to any specific component (loading state, error state, notification styles, etc) can be displayed on their own screens. These screens should have  “-ignore” at the end of the URL path so that it is not included in the app screens 
 4. when designer have a new webflow zip file, he needs to rename it to "design.zip" and upload it to the project's github repo under the master master branch. 
 5. custom code in webflow: if a certain style cannot be done in webflow, please use the custom code option in webflow. 
-6. do not add style to body tags. always add a wrapper with position: absolute. 
+6. do not add style to body tags. always add a wrapper with position: absolute, and apply styles to that wrapper. 
 7. redux: make sure the forms has uniq id name relativly to the page
+![screen shot 2016-06-24 at 11 57 42 am](https://cloud.githubusercontent.com/assets/8363969/16345182/30b934e6-3a06-11e6-8177-938b8e9997dd.png)
+
 
 ### For Both Developers and Designers:
 1. designers and developers should be aware of the file names since every html file name is translated in stanza to a url path.
