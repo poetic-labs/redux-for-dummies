@@ -2,7 +2,8 @@
 ### For Developers:
 1. After getting the initial design from the designer: 
  - run Stanza (instructions are here : https://github.com/poetic/stanza) and go over each path, make sure all the views are generated correctly and start componentizing each view with documentation.
- - Make sure the design follows the development process (for example: make sure the view where you create the user in the database has the necessary fields to create the user) 
+ - Make sure the design follows the development process (for example: make sure the view where you create the user in the database has the necessary fields to create the user)
+ - if you only want to to update css files without it creating new redux files, stop stanza right after it says it created the css files).
  - Don't run to the designer each time you have a change. Wait until you have a reasonable amount of changes before consulting with a designer. You will probably do this phase a few times until you are ready to start with the code. 
  - It is advised that if you want to use external React components such as swiper.js, research beforehand and make sure it’s compatible with the design. 
  - In conclusion: The main goal of this step is to plan ahead as much as possible in order to decrease the amount of changes you have after you you start writing the code. 
@@ -24,7 +25,7 @@ The designer needs to upload it to the `master` branch. On the `master` branch, 
 4. When designer have a new webflow zip file, he needs to rename it to `design.zip` and upload it to the project's github repo under the master master branch. 
 5. Custom code in webflow: If a certain style cannot be done in webflow, please use the custom code option in webflow. 
 6. Do not add style to body tags. always add a wrapper with `position: absolute`, and apply styles to that wrapper. 
-7. Redux: make sure the forms has uniq id name relativly to the page.
+7. Redux: make sure the forms has uniq id name relativly to the page and that it has a name that describes the behaviour or the element (for example: not good => input2 ; good => user-name).
 
 ![screen shot 2016-06-24 at 11 57 42 am](https://cloud.githubusercontent.com/assets/8363969/16345182/30b934e6-3a06-11e6-8177-938b8e9997dd.png)
 
