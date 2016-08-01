@@ -22,10 +22,11 @@ The designer needs to upload it to the `master` branch. On the `master` branch, 
 
 2. Flexbox is a good tool to use it when it comes to apps. Dont use it in web projects 
 3. Any element that is not exclusive to any specific component (loading state, error state, notification styles, etc) can be displayed on their own screens. These screens should have  `-ignore` at the end of the URL path so that it is not included in the app screens 
-4. When designer have a new webflow zip file, he needs to rename it to `design.zip` and upload it to the project's github repo under the master master branch. 
+4. When a designer has a new webflow zip file, he needs to rename it to `design.zip` and upload it to the project's github repo under the development branch. 
 5. Custom code in webflow: If a certain style cannot be done in webflow, please use the custom code option in webflow. 
-6. Do not add style to body tags. always add a wrapper with `position: absolute`, and apply styles to that wrapper. 
-7. Redux: make sure the forms has uniq id name relativly to the page and that it has a name that describes the behaviour or the element (for example: not good => input2 ; good => user-name).
+6. Do not add style to body tags. always add a wrapper with `position: absolute`, and apply styles to that wrapper.
+7. Prepare icons and splash screens for iphons and androids. The files should be png's and their sizes and names need to be  according to the following convention: http://docs.meteor.com/api/mobile-config.html#App-icons.
+8. Redux: make sure the forms has uniq id name relativly to the page and that it has a name that describes the behaviour or the element (for example: not good => input2 ; good => user-name).
 
 ![screen shot 2016-06-24 at 11 57 42 am](https://cloud.githubusercontent.com/assets/8363969/16345182/30b934e6-3a06-11e6-8177-938b8e9997dd.png)
 
