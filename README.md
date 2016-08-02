@@ -26,7 +26,8 @@ The designer needs to upload it to the `master` branch. On the `master` branch, 
 5. Custom code in webflow: If a certain style cannot be done in webflow, please use the custom code option in webflow. 
 6. Do not add style to body tags. always add a wrapper with `position: absolute`, and apply styles to that wrapper.
 7. Prepare icons and splash screens for iphons and androids. The files should be png's and their sizes and names need to be  according to the following convention: http://docs.meteor.com/api/mobile-config.html#App-icons.
-8. Redux: make sure the forms has uniq id name relativly to the page and that it has a name that describes the behaviour or the element (for example: not good => input2 ; good => user-name).
+8. Padding around buttons: the padding around buttons should be at least 44px for a finger tap to work.
+9. Redux: make sure the forms has uniq id name relativly to the page and that it has a name that describes the behaviour or the element (for example: not good => input2 ; good => user-name).
 
 ![screen shot 2016-06-24 at 11 57 42 am](https://cloud.githubusercontent.com/assets/8363969/16345182/30b934e6-3a06-11e6-8177-938b8e9997dd.png)
 
